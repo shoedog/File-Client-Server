@@ -1,7 +1,7 @@
 Server can send any file type. Tested on sizes up to 1 GB.
 Client can receive these files successfully.
 
-Python Client
+## Python Client
 
 Start: ```python ftclient.py <SERVER> <SERVER_PORT> <DATA_PORT> -c=<COMMAND> -f=<FILENAME>```
 
@@ -14,10 +14,9 @@ Execution & Control:
 - You can also input -g <FILENAME> at the command prompt
 - Client will validate command line and input arguments, connect to server, and send command
 
-**Tested on OSU flip servers**
+## C Server 
 
-
-C Server - make is tested on Linux only
+make is tested on Linux only
 
 build: ```make all```
 run: ```./ftserver <PORT to Listen On>```
@@ -28,5 +27,4 @@ Execution & Control:
 - Once client session ends, server is available for another session
 - CTRL-C to exit
 
-**Tested on OSU flip servers**
 
